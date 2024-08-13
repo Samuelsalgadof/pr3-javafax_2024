@@ -4,7 +4,7 @@ import co.edu.unquindio.barberiaglamourfx.barberiaapp.controller.ClienteControll
 import co.edu.unquindio.barberiaglamourfx.barberiaapp.controller.service.IClienteControllerService;
 import javafx.fxml.FXML;
 
-public class ClienteViewController {}
+public class ClienteViewController {
     IClienteControllerService clienteControllerService;
 
     @FXML
