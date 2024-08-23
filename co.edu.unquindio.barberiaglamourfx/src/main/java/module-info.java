@@ -1,8 +1,7 @@
 module co.edu.unquindio.barberiaglamourfx.barberiaapp {
     requires javafx.controls;
     requires javafx.fxml;
-
-    //requires org.controlsfx.controls;
+    requires org.controlsfx.controls;
     requires org.mapstruct;
 
 
@@ -11,7 +10,7 @@ module co.edu.unquindio.barberiaglamourfx.barberiaapp {
     exports co.edu.unquindio.barberiaglamourfx.barberiaapp.viewController;
     opens co.edu.unquindio.barberiaglamourfx.barberiaapp.viewController to java.fx.fxml;
     exports co.edu.unquindio.barberiaglamourfx.barberiaapp.controller;
-    //exports co.edu.unquindio.barberiaglamourfx.barberiaapp.mapping.dto;
+    exports co.edu.unquindio.barberiaglamourfx.barberiaapp.mapping.dto;
     //exports co.edu.unquindio.barberiaglamourfx.barberiaapp.mapping.mappers;
     //exports co.edu.unquindio.barberiaglamourfx.barberiaapp.model;
     opens co.edu.unquindio.barberiaglamourfx.barberiaapp.controller to javafx.fxml;

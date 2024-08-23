@@ -2,9 +2,6 @@ package co.edu.unquindio.barberiaglamourfx.barberiaapp.controller.service;
 
 import co.edu.unquindio.barberiaglamourfx.barberiaapp.mapping.*;
 
-public interface IEmpleadoControllerService  {
-}
-
 public interface IEmpleadoControllerService {
     List<EmpleadoDto> obtenerEmpleados();
 
