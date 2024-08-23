@@ -14,3 +14,4 @@ public interface IEmpleadoControllerService {
 
     boolean actualizarEmpleado(String cedulaActual, EmpleadoDto empleadoDto);
 }
+.
