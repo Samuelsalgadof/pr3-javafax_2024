@@ -20,11 +20,6 @@
                                 <Font size="14.0" />
                             </font>
                         </Label>
-                        <Label layoutX="81.0" layoutY="154.0" text="Email">
-                            <font>
-                                <Font size="14.0" />
-                            </font>
-                        </Label>
                         <Label layoutX="81.0" layoutY="98.0" text="Cedula">
                             <font>
                                 <Font size="14.0" />
@@ -60,6 +55,11 @@
                                 <Font size="17.0" />
                             </font>
                         </Button>
+                  <Label layoutX="81.0" layoutY="155.0" text="Email">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
                     </children>
                 </AnchorPane>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="373.0" prefWidth="1004.0">
