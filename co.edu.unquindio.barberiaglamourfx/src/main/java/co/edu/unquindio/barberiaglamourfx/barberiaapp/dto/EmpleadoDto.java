@@ -1,4 +1,4 @@
-package co.edu.unquindio.barberiaglamourfx.barberiaapp.mapping.dto;
+package co.edu.unquindio.barberiaglamourfx.barberiaapp.dto;
 
 public record EmpleadoDto {
     String nombre;
